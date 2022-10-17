@@ -1,0 +1,19 @@
+
+Epoch 1/10
+Exception in thread StatsThr:
+Traceback (most recent call last):
+  File "/Users/srivatsan/miniconda/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/Users/srivatsan/miniconda/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/wandb/sdk/internal/stats.py", line 137, in _thread_body
+    stats = self.stats()
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/wandb/sdk/internal/stats.py", line 260, in stats
+    net = psutil.net_io_counters()
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/psutil/__init__.py", line 2117, in net_io_counters
+    rawdict = _psplatform.net_io_counters()
+OSError: [Errno 12] Cannot allocate memory
+wandb: Network error (ConnectionError), entering retry loop.
+(60000, 224, 224, 3) (10000, 224, 224, 3)
+(60000, 224, 224, 3) (10000, 224, 224, 3)
+(60000, 224, 224, 3) (10000, 224, 224, 3)

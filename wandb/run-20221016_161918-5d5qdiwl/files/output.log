@@ -1,0 +1,63 @@
+Epoch 1/10
+
+
+
+
+
+1867/1875 [============================>.] - ETA: 0s - loss: 0.0119 - accuracy: 0.9960INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_161918-5d5qdiwl/files/model-best/assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_161918-5d5qdiwl/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_161918-5d5qdiwl/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 11s 6ms/step - loss: 0.0119 - accuracy: 0.9960 - val_loss: 0.0762 - val_accuracy: 0.9837
+Epoch 2/10
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0123 - accuracy: 0.9962 - val_loss: 0.0787 - val_accuracy: 0.9838
+Epoch 3/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0110 - accuracy: 0.9963 - val_loss: 0.0790 - val_accuracy: 0.9847
+Epoch 4/10
+
+
+
+
+
+1875/1875 [==============================] - ETA: 0s - loss: 0.0108 - accuracy: 0.9965INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_161918-5d5qdiwl/files/model-best/assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_161918-5d5qdiwl/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_161918-5d5qdiwl/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0108 - accuracy: 0.9965 - val_loss: 0.0644 - val_accuracy: 0.9868
+Epoch 5/10
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0076 - accuracy: 0.9976 - val_loss: 0.0800 - val_accuracy: 0.9842
+Epoch 6/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0090 - accuracy: 0.9969 - val_loss: 0.0810 - val_accuracy: 0.9851
+Epoch 7/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0085 - accuracy: 0.9972 - val_loss: 0.0769 - val_accuracy: 0.9847
+Epoch 8/10
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0094 - accuracy: 0.9969 - val_loss: 0.0946 - val_accuracy: 0.9841
+Epoch 9/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0101 - accuracy: 0.9965 - val_loss: 0.0822 - val_accuracy: 0.9872
+Epoch 10/10
+
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0078 - accuracy: 0.9975 - val_loss: 0.0860 - val_accuracy: 0.9847

@@ -1,0 +1,59 @@
+Epoch 1/10
+
+
+
+
+1869/1875 [============================>.] - ETA: 0s - loss: 0.0076 - accuracy: 0.9975
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_162538-3hbi7gko/files/model-best/assets
+
+1869/1875 [============================>.] - ETA: 0s - loss: 0.0076 - accuracy: 0.9975INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_162538-3hbi7gko/files/model-best/assets
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0075 - accuracy: 0.9976 - val_loss: 0.0904 - val_accuracy: 0.9854
+Epoch 2/10
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0088 - accuracy: 0.9972 - val_loss: 0.0921 - val_accuracy: 0.9840
+Epoch 3/10
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0059 - accuracy: 0.9981 - val_loss: 0.0905 - val_accuracy: 0.9864
+Epoch 4/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0075 - accuracy: 0.9978 - val_loss: 0.1058 - val_accuracy: 0.9841
+Epoch 5/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0069 - accuracy: 0.9980 - val_loss: 0.1001 - val_accuracy: 0.9849
+Epoch 6/10
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0076 - accuracy: 0.9976 - val_loss: 0.1143 - val_accuracy: 0.9816
+Epoch 7/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0063 - accuracy: 0.9980 - val_loss: 0.1120 - val_accuracy: 0.9841
+Epoch 8/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0059 - accuracy: 0.9981 - val_loss: 0.1012 - val_accuracy: 0.9850
+Epoch 9/10
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0088 - accuracy: 0.9973 - val_loss: 0.1316 - val_accuracy: 0.9826
+Epoch 10/10
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0063 - accuracy: 0.9983 - val_loss: 0.1152 - val_accuracy: 0.9855

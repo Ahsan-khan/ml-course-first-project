@@ -1,0 +1,67 @@
+Epoch 1/10
+
+
+
+
+1872/1875 [============================>.] - ETA: 0s - loss: 0.0067 - accuracy: 0.9980
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_163416-3fu3kmlj/files/model-best/assets
+
+1872/1875 [============================>.] - ETA: 0s - loss: 0.0067 - accuracy: 0.9980INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_163416-3fu3kmlj/files/model-best/assets
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.0067 - accuracy: 0.9980 - val_loss: 0.1271 - val_accuracy: 0.9844
+Epoch 2/10
+
+
+
+1871/1875 [============================>.] - ETA: 0s - loss: 0.0074 - accuracy: 0.9975
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_163416-3fu3kmlj/files/model-best/assets
+
+1871/1875 [============================>.] - ETA: 0s - loss: 0.0074 - accuracy: 0.9975INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_163416-3fu3kmlj/files/model-best/assets
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0074 - accuracy: 0.9976 - val_loss: 0.1225 - val_accuracy: 0.9843
+Epoch 3/10
+
+
+1770/1875 [===========================>..] - ETA: 0s - loss: 0.0067 - accuracy: 0.9980
+
+1874/1875 [============================>.] - ETA: 0s - loss: 0.0068 - accuracy: 0.9980INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_163416-3fu3kmlj/files/model-best/assets
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_163416-3fu3kmlj/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_163416-3fu3kmlj/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0068 - accuracy: 0.9980 - val_loss: 0.1118 - val_accuracy: 0.9854
+Epoch 4/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0055 - accuracy: 0.9983 - val_loss: 0.1240 - val_accuracy: 0.9844
+Epoch 5/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0053 - accuracy: 0.9985 - val_loss: 0.1225 - val_accuracy: 0.9863
+Epoch 6/10
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0069 - accuracy: 0.9980 - val_loss: 0.1204 - val_accuracy: 0.9859
+Epoch 7/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0059 - accuracy: 0.9985 - val_loss: 0.1456 - val_accuracy: 0.9844
+Epoch 8/10
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0083 - accuracy: 0.9978 - val_loss: 0.1119 - val_accuracy: 0.9864
+Epoch 9/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0039 - accuracy: 0.9986 - val_loss: 0.1359 - val_accuracy: 0.9847
+Epoch 10/10
+
+
+
+
