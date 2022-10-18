@@ -1,0 +1,58 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.1907 - accuracy: 0.9436
+Epoch 2/10
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0724 - accuracy: 0.9783
+Epoch 3/10
+
+
+
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0461 - accuracy: 0.9861
+Epoch 4/10
+
+
+
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0344 - accuracy: 0.9888
+Epoch 5/10
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0276 - accuracy: 0.9905
+Epoch 6/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0216 - accuracy: 0.9927
+Epoch 7/10
+
+
+
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0173 - accuracy: 0.9944
+Epoch 8/10
+
+
+
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0147 - accuracy: 0.9948
+Epoch 9/10
+
+
+
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0129 - accuracy: 0.9954
+Epoch 10/10
+
+
+
+
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0126 - accuracy: 0.9957
+313/313 [==============================] - 1s 1ms/step - loss: 0.0668 - accuracy: 0.9858
+1/1 [==============================] - 0s 35ms/step
+313/313 [==============================] - 1s 2ms/step

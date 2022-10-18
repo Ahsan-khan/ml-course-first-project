@@ -1,0 +1,58 @@
+2022-10-16 15:23:02,252 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Configure stats pid to 65905
+2022-10-16 15:23:02,252 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Loading settings from /Users/srivatsan/.config/wandb/settings
+2022-10-16 15:23:02,252 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Loading settings from /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/settings
+2022-10-16 15:23:02,253 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-16 15:23:02,253 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-16 15:23:02,253 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2022-10-16 15:23:02,253 INFO    MainThread:65905 [wandb_init.py:_log_setup():476] Logging user logs to /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/logs/debug.log
+2022-10-16 15:23:02,253 INFO    MainThread:65905 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/logs/debug-internal.log
+2022-10-16 15:23:02,253 INFO    MainThread:65905 [wandb_init.py:init():516] calling init triggers
+2022-10-16 15:23:02,253 INFO    MainThread:65905 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-10-16 15:23:02,254 INFO    MainThread:65905 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 2ivyqqr0
+2022-10-16 15:23:02,259 INFO    MainThread:65905 [wandb_run.py:_finish():1746] finishing run srivatsan25/Topics in AI Report 1/2ivyqqr0
+2022-10-16 15:23:02,263 INFO    MainThread:65905 [jupyter.py:save_history():448] not saving jupyter history
+2022-10-16 15:23:02,263 INFO    MainThread:65905 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-16 15:23:02,263 INFO    MainThread:65905 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-10-16 15:23:02,264 INFO    MainThread:65905 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-16 15:23:02,265 INFO    MainThread:65905 [wandb_run.py:_restore():1932] restore
+2022-10-16 15:23:02,266 INFO    MainThread:65905 [wandb_run.py:_restore():1938] restore done
+2022-10-16 15:23:08,211 INFO    MainThread:65905 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-16 15:23:08,213 INFO    MainThread:65905 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-16 15:23:08,236 INFO    MainThread:65905 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-16 15:23:08,242 INFO    MainThread:65905 [wandb_init.py:init():569] starting backend
+2022-10-16 15:23:08,242 INFO    MainThread:65905 [wandb_init.py:init():573] setting up manager
+2022-10-16 15:23:08,248 INFO    MainThread:65905 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-10-16 15:23:08,255 INFO    MainThread:65905 [wandb_init.py:init():580] backend started and connected
+2022-10-16 15:23:08,486 INFO    MainThread:65905 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-16 15:23:08,486 INFO    MainThread:65905 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-16 15:23:08,486 INFO    MainThread:65905 [wandb_init.py:init():658] updated telemetry
+2022-10-16 15:23:08,671 INFO    MainThread:65905 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-16 15:23:09,714 INFO    MainThread:65905 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-16 15:23:09,869 INFO    MainThread:65905 [wandb_run.py:_on_init():2004] got version response 
+2022-10-16 15:23:09,869 INFO    MainThread:65905 [wandb_init.py:init():728] starting run threads in backend
+2022-10-16 15:23:14,886 INFO    MainThread:65905 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-16 15:23:14,887 INFO    MainThread:65905 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-16 15:23:14,887 INFO    MainThread:65905 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-16 15:23:14,887 INFO    MainThread:65905 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-16 15:23:14,887 INFO    MainThread:65905 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-16 16:19:18,800 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Configure stats pid to 65905
+2022-10-16 16:19:18,803 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Loading settings from /Users/srivatsan/.config/wandb/settings
+2022-10-16 16:19:18,804 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Loading settings from /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/settings
+2022-10-16 16:19:18,804 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-16 16:19:18,804 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-16 16:19:18,805 INFO    MainThread:65905 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2022-10-16 16:19:18,805 INFO    MainThread:65905 [wandb_init.py:_log_setup():476] Logging user logs to /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_161918-5d5qdiwl/logs/debug.log
+2022-10-16 16:19:18,805 INFO    MainThread:65905 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_161918-5d5qdiwl/logs/debug-internal.log
+2022-10-16 16:19:18,806 INFO    MainThread:65905 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f95901f26d0>
+2022-10-16 16:19:18,807 INFO    MainThread:65905 [wandb_init.py:init():516] calling init triggers
+2022-10-16 16:19:18,807 INFO    MainThread:65905 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-10-16 16:19:18,807 INFO    MainThread:65905 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 1wqiqe68
+2022-10-16 16:19:18,820 INFO    MainThread:65905 [wandb_run.py:_finish():1746] finishing run srivatsan25/Topics in AI Report 1/1wqiqe68
+2022-10-16 16:19:18,822 INFO    MainThread:65905 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-16 16:19:18,823 INFO    MainThread:65905 [wandb_run.py:_restore():1932] restore
+2022-10-16 16:19:18,825 INFO    MainThread:65905 [wandb_run.py:_restore():1938] restore done
+2022-10-16 16:19:25,738 INFO    MainThread:65905 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-16 16:19:25,742 INFO    MainThread:65905 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-16 16:19:25,772 INFO    MainThread:65905 [wandb_run.py:_footer_sync_info():3333] logging synced files

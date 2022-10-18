@@ -1,0 +1,21 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-10-17T19:01:37.385702",
+    "startedAt": "2022-10-17T19:01:30.173806",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Desktop/windsor/topics_in_ai/ml-course-first-project/uwindsor-ml-project.ipynb",
+    "root": "/Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project",
+    "git": {
+        "remote": "https://github.com/Ahsan-khan/ml-course-first-project.git",
+        "commit": "db5ea4d8904f5c5804cfc982420b6af6d9da1268"
+    },
+    "email": "srivatsan25297@gmail.com",
+    "host": "Srivatsans-MacBook-Pro.local",
+    "username": "srivatsan",
+    "executable": "/Users/srivatsan/miniconda/bin/python"
+}

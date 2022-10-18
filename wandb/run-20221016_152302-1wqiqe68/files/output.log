@@ -1,0 +1,70 @@
+Epoch 1/10
+
+
+
+
+
+1870/1875 [============================>.] - ETA: 0s - loss: 0.1999 - accuracy: 0.9404INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best/assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best)... Done. 0.1s
+1875/1875 [==============================] - 11s 6ms/step - loss: 0.1997 - accuracy: 0.9404 - val_loss: 0.0887 - val_accuracy: 0.9730
+Epoch 2/10
+
+
+
+1871/1875 [============================>.] - ETA: 0s - loss: 0.0764 - accuracy: 0.9768INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best/assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0764 - accuracy: 0.9768 - val_loss: 0.0561 - val_accuracy: 0.9820
+Epoch 3/10
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0513 - accuracy: 0.9837 - val_loss: 0.0577 - val_accuracy: 0.9825
+Epoch 4/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0372 - accuracy: 0.9881 - val_loss: 0.0585 - val_accuracy: 0.9816
+Epoch 5/10
+
+
+
+
+1872/1875 [============================>.] - ETA: 0s - loss: 0.0275 - accuracy: 0.9908
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best/assets
+
+1872/1875 [============================>.] - ETA: 0s - loss: 0.0275 - accuracy: 0.9908INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best/assets
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0275 - accuracy: 0.9907 - val_loss: 0.0558 - val_accuracy: 0.9840
+Epoch 6/10
+
+
+
+1866/1875 [============================>.] - ETA: 0s - loss: 0.0234 - accuracy: 0.9919INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best/assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221016_152302-1wqiqe68/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0234 - accuracy: 0.9919 - val_loss: 0.0540 - val_accuracy: 0.9848
+Epoch 7/10
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0172 - accuracy: 0.9942 - val_loss: 0.0600 - val_accuracy: 0.9834
+Epoch 8/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0170 - accuracy: 0.9942 - val_loss: 0.0614 - val_accuracy: 0.9840
+Epoch 9/10
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0132 - accuracy: 0.9956 - val_loss: 0.0693 - val_accuracy: 0.9834
+Epoch 10/10
+
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0137 - accuracy: 0.9953 - val_loss: 0.0726 - val_accuracy: 0.9839

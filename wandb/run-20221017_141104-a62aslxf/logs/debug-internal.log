@@ -1,0 +1,368 @@
+2022-10-17 14:11:14,017 INFO    StreamThr :77130 [internal.py:wandb_internal():88] W&B internal server running at pid: 77130, started at: 2022-10-17 14:11:14.002257
+2022-10-17 14:11:14,020 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: status
+2022-10-17 14:11:14,022 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: status
+2022-10-17 14:11:14,024 DEBUG   SenderThread:77130 [sender.py:send():303] send: header
+2022-10-17 14:11:14,024 INFO    WriterThread:77130 [datastore.py:open_for_write():75] open: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/run-a62aslxf.wandb
+2022-10-17 14:11:14,025 DEBUG   SenderThread:77130 [sender.py:send():303] send: run
+2022-10-17 14:11:14,634 INFO    SenderThread:77130 [dir_watcher.py:__init__():216] watching files in: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files
+2022-10-17 14:11:14,636 INFO    SenderThread:77130 [sender.py:_start_run_threads():928] run started: a62aslxf with start time 1666030273.023957
+2022-10-17 14:11:14,636 DEBUG   SenderThread:77130 [sender.py:send():303] send: summary
+2022-10-17 14:11:14,638 INFO    SenderThread:77130 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-17 14:11:14,641 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: check_version
+2022-10-17 14:11:14,642 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: check_version
+2022-10-17 14:11:14,781 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: run_start
+2022-10-17 14:11:14,789 DEBUG   HandlerThread:77130 [meta.py:__init__():34] meta init
+2022-10-17 14:11:14,789 DEBUG   HandlerThread:77130 [meta.py:__init__():49] meta init done
+2022-10-17 14:11:14,789 DEBUG   HandlerThread:77130 [meta.py:probe():215] probe
+2022-10-17 14:11:14,791 DEBUG   HandlerThread:77130 [meta.py:_setup_git():205] setup git
+2022-10-17 14:11:14,849 DEBUG   HandlerThread:77130 [meta.py:_setup_git():212] setup git done
+2022-10-17 14:11:14,850 DEBUG   HandlerThread:77130 [meta.py:_save_pip():53] save pip
+2022-10-17 14:11:14,851 DEBUG   HandlerThread:77130 [meta.py:_save_pip():67] save pip done
+2022-10-17 14:11:14,851 DEBUG   HandlerThread:77130 [meta.py:_save_conda():74] save conda
+2022-10-17 14:11:15,642 INFO    Thread-284:77130 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/requirements.txt
+2022-10-17 14:11:15,644 INFO    Thread-284:77130 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/conda-environment.yaml
+2022-10-17 14:11:15,645 INFO    Thread-284:77130 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/wandb-summary.json
+2022-10-17 14:11:20,538 DEBUG   HandlerThread:77130 [meta.py:_save_conda():84] save conda done
+2022-10-17 14:11:20,538 DEBUG   HandlerThread:77130 [meta.py:probe():253] probe done
+2022-10-17 14:11:20,539 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:11:20,540 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:11:20,540 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-17 14:11:20,663 INFO    Thread-284:77130 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/conda-environment.yaml
+2022-10-17 14:11:20,663 INFO    Thread-284:77130 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/wandb-metadata.json
+2022-10-17 14:11:20,677 DEBUG   SenderThread:77130 [sender.py:send():303] send: telemetry
+2022-10-17 14:11:20,678 DEBUG   SenderThread:77130 [sender.py:send():303] send: telemetry
+2022-10-17 14:11:20,679 DEBUG   SenderThread:77130 [sender.py:send():303] send: telemetry
+2022-10-17 14:11:20,679 DEBUG   SenderThread:77130 [sender.py:send():303] send: files
+2022-10-17 14:11:20,679 INFO    SenderThread:77130 [sender.py:_save_file():1171] saving file model-best.h5 with policy live
+2022-10-17 14:11:20,679 DEBUG   SenderThread:77130 [sender.py:send():303] send: telemetry
+2022-10-17 14:11:20,679 DEBUG   SenderThread:77130 [sender.py:send():303] send: files
+2022-10-17 14:11:20,679 INFO    SenderThread:77130 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-17 14:11:21,313 INFO    Thread-288:77130 [upload_job.py:push():143] Uploaded file /var/folders/92/g1zlf1bd3d9cwyfh39p3t3780000gn/T/tmpclio16_kwandb/36s9ajjc-wandb-metadata.json
+2022-10-17 14:11:21,670 INFO    Thread-284:77130 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/output.log
+2022-10-17 14:11:23,683 INFO    Thread-284:77130 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/output.log
+2022-10-17 14:11:35,687 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:11:35,689 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:11:43,853 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:11:45,790 INFO    Thread-284:77130 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/config.yaml
+2022-10-17 14:11:50,928 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:11:50,934 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:12:06,340 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:12:06,343 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:12:14,983 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:12:21,528 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:12:21,534 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:12:36,889 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:12:36,894 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:12:46,122 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:12:52,076 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:12:52,080 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:13:07,377 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:13:07,379 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:13:17,242 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:13:22,589 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:13:22,591 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:13:37,802 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:13:37,807 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:13:48,415 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:13:52,974 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:13:52,977 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:14:08,253 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:14:08,259 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:14:19,529 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:14:23,472 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:14:23,475 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:14:38,667 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:14:38,671 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:14:50,703 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:14:53,847 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:14:53,848 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:15:09,043 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:15:09,049 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:15:21,850 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:15:24,254 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:15:24,260 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:15:39,455 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:15:39,462 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:15:52,962 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:15:54,625 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:15:54,628 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:16:09,815 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:16:09,818 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:16:24,106 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:16:24,979 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:16:24,982 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:16:40,165 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:16:40,168 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:16:55,222 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:16:55,334 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:16:55,335 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:17:10,507 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:17:10,511 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:17:25,682 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:17:25,685 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:17:26,320 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:17:41,109 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:17:41,116 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:17:56,281 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:17:56,287 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:17:57,445 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:18:11,459 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:18:11,462 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:18:26,643 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:18:26,757 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:18:29,141 DEBUG   SenderThread:77130 [sender.py:send():303] send: stats
+2022-10-17 14:21:08,038 INFO    Thread-284:77130 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/output.log
+2022-10-17 14:21:14,045 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:21:14,047 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:21:29,247 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:21:29,253 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:21:44,678 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:21:44,683 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:21:59,996 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:21:59,999 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:22:15,337 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:22:15,343 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:22:30,518 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:22:30,524 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:22:45,855 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:22:45,859 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:23:01,131 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:23:01,135 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:23:16,337 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:23:16,340 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:23:31,531 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:23:31,536 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:23:46,697 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:23:46,702 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:24:01,879 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:24:01,882 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:24:17,089 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:24:17,096 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:24:32,296 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:24:32,298 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:24:47,504 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:24:47,506 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:25:02,718 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:25:02,720 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:25:17,921 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:25:17,926 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:25:33,083 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:25:33,089 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:25:48,329 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:25:48,335 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:26:03,541 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:26:03,542 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:26:18,742 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:26:18,748 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:26:33,934 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:26:33,939 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:29:09,243 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:29:09,249 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:29:24,521 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:29:24,523 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:29:39,725 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:29:39,728 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:29:54,910 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:29:54,913 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:30:10,127 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:30:10,129 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:30:25,324 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:30:25,330 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:30:40,527 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:30:40,531 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:30:55,737 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:30:55,744 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:31:10,934 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:31:10,936 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:31:26,258 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:31:26,261 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:31:41,453 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:31:41,454 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:31:56,633 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:31:56,636 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:32:11,819 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:32:11,824 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:32:26,978 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:32:26,981 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:32:42,169 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:32:42,173 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:32:57,371 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:32:57,376 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:33:12,598 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:33:12,604 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:35:55,622 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:35:55,627 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:35:59,333 ERROR   SenderThread:77130 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/srivatsan/miniconda/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f98500c80a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98500c80a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 213, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/srivatsan/miniconda/lib/python3.9/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98500c80a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2022-10-17 14:36:33,449 INFO    Thread-284:77130 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/output.log
+2022-10-17 14:36:43,083 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:36:43,090 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:36:58,285 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:36:58,287 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:37:13,478 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:37:13,486 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:37:28,677 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:37:28,682 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:37:43,896 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:37:43,899 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:37:59,393 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:37:59,399 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:38:14,621 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:38:14,627 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:38:29,947 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:38:29,952 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:38:45,141 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:38:45,147 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:39:00,342 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:39:00,349 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:39:15,640 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:39:15,646 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:39:30,832 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:39:30,836 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:39:46,019 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:39:46,025 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:40:01,264 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:40:01,268 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:40:16,478 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:40:16,482 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:40:31,651 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:40:31,657 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:40:46,842 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:40:46,847 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:41:02,038 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:41:02,042 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:41:17,218 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:41:17,224 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:41:33,515 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:41:33,520 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:41:48,731 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:41:48,737 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:42:03,935 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:42:03,942 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:42:19,148 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:42:19,154 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:42:34,322 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:42:34,327 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:42:49,506 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:42:49,512 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:43:04,722 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:43:04,727 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:43:19,937 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:43:19,944 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:43:36,052 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:43:36,054 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:43:37,737 INFO    Thread-284:77130 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/output.log
+2022-10-17 14:43:51,438 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:43:51,441 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:44:05,881 INFO    Thread-284:77130 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/output.log
+2022-10-17 14:44:06,612 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:44:06,614 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:44:21,813 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:44:21,819 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:44:21,957 INFO    Thread-284:77130 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/output.log
+2022-10-17 14:44:37,012 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:44:37,015 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:44:52,196 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:44:52,202 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:45:07,425 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:45:07,428 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:45:22,600 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:45:22,606 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:45:37,848 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:45:37,853 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:45:53,007 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:45:53,010 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:46:08,309 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:46:08,315 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:46:23,529 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:46:23,534 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:46:38,700 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:46:38,703 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:46:53,899 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:46:53,904 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:47:09,097 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:47:09,101 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:47:24,292 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:47:24,296 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:47:39,491 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:47:39,494 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:47:54,666 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:47:54,671 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:48:09,897 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:48:09,899 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:48:25,079 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:48:25,083 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:48:41,640 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:48:41,642 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:48:45,244 INFO    Thread-284:77130 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/srivatsan/Desktop/windsor/topics_in_ai/ml-course-first-project/wandb/run-20221017_141104-a62aslxf/files/output.log
+2022-10-17 14:48:57,107 DEBUG   HandlerThread:77130 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 14:48:57,109 DEBUG   SenderThread:77130 [sender.py:send_request():317] send_request: stop_status
+2022-10-17 14:49:14,482 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,489 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,489 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,490 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,490 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,490 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,491 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,491 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,491 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,492 INFO    MainThread:77130 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 14:49:14,494 WARNING MsgRouterThr:77130 [router.py:message_loop():74] EOFError seen in message_loop

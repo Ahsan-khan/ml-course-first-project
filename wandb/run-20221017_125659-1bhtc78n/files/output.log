@@ -1,0 +1,211 @@
+Epoch 1/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 41s 22ms/step - loss: 0.2147 - accuracy: 0.9348 - val_loss: 0.0467 - val_accuracy: 0.9843
+Epoch 2/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 40s 21ms/step - loss: 0.1094 - accuracy: 0.9679 - val_loss: 0.0424 - val_accuracy: 0.9872
+Epoch 3/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 40s 21ms/step - loss: 0.0924 - accuracy: 0.9720 - val_loss: 0.0569 - val_accuracy: 0.9810
+Epoch 4/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 40s 21ms/step - loss: 0.0823 - accuracy: 0.9754 - val_loss: 0.0411 - val_accuracy: 0.9877
+Epoch 5/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 40s 22ms/step - loss: 0.0730 - accuracy: 0.9780 - val_loss: 0.0583 - val_accuracy: 0.9840
+Epoch 6/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 40s 21ms/step - loss: 0.0690 - accuracy: 0.9788 - val_loss: 0.0388 - val_accuracy: 0.9878
+Epoch 7/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 41s 22ms/step - loss: 0.0661 - accuracy: 0.9807 - val_loss: 0.0478 - val_accuracy: 0.9868
+Epoch 8/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 40s 22ms/step - loss: 0.0586 - accuracy: 0.9816 - val_loss: 0.0436 - val_accuracy: 0.9875
+Epoch 9/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 40s 21ms/step - loss: 0.0542 - accuracy: 0.9837 - val_loss: 0.0421 - val_accuracy: 0.9892
+Epoch 10/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 40s 22ms/step - loss: 0.0565 - accuracy: 0.9829 - val_loss: 0.0394 - val_accuracy: 0.9906
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
